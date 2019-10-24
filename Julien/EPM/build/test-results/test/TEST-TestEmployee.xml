@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestEmployee" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-17T07:54:20" hostname="DESKTOP-KPVCLVM" time="0.032">
-  <properties/>
-  <testcase name="createSalariedEmployee" classname="TestEmployee" time="0.004"/>
-  <testcase name="createHourlyEmployee" classname="TestEmployee" time="0.027"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
