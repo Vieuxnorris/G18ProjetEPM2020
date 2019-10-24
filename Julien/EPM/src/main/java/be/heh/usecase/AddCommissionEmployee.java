@@ -2,31 +2,25 @@ package be.heh.usecase;
 
 import be.heh.entity.*;
 
-public class AddCommissionEmployee extends AddEmployee {
-    private int empId;
-    private String name;
-    private String address;
-    private double mlty_slry;
-    private double com_rate;
+public class AddCommissionEmployee extends AddEmployeeTransaction {
 
-    public AddCommissionEmployee(int empId, String name, String address, double mlty_slry, double com_rate){
-        super(empId,name,address);
-        this.mlty_slry = mlty_slry;
-        this.com_rate = com_rate;
+    private double salary;
+    private double commissionRate;
+
+    public AddCommissionEmployee(int empid, String name, String address, double salary, double commissionRate) {
+        super(empid, name, address);
+        this.salary = salary;
+        this.commissionRate = commissionRate;
     }
 
     @Override
-    protected PaymentSchedule makePaymentSchedule() {
-        return null;
+    PaymentClassification getClassification() {
+        return new CommissionedClassification();
     }
 
     @Override
-    protected PaymentClassification makePaymentClassification() {
-        return null;
+    PaymentSchedule getSchedule() {
+        return new TwoWeeksPaymentSchedule();
     }
 
-    /*@Override
-    protected PaymentMethod makePaymentMethod() {
-        return null;
-    }*/
 }

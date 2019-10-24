@@ -26,13 +26,13 @@ public class TestAddEmployee {
     AddSalariedEmployee t = new AddSalariedEmployee(empId, "Bob","Home",1000.00);
     t.execute();
 
-    Employee e = Context.employeeGateway.getEmployee(empId);
+    Employee e = PayrollDatabase.instance.getEmployee(empId);
     Assert.assertEquals("Bob",e.getName());
 
-    PaymentSchedule ps = e.getPaySchedule();
+    PaymentSchedule ps = e.getSchedule();
     assertTrue(ps instanceof MonthlyPaymentySchedule);
 
-    PaymentMethod pm = e.getPayMethod();
+    PaymentMethod pm = e.getMethod();
     Assert.assertEquals("direct deposit into Fortis : be332211",pm.toString());
 }
 
@@ -42,13 +42,13 @@ public class TestAddEmployee {
         AddHourlyEmployee t = new AddHourlyEmployee(empId, "BobHourly","Home_Hourly",20.0);
         t.execute();
 
-        Employee e = Context.employeeGateway.getEmployee(empId);
+        Employee e = PayrollDatabase.instance.getEmployee(empId);
         Assert.assertEquals("BobHourly",e.getName());
 
-        PaymentSchedule ps = e.getPaySchedule();
+        PaymentSchedule ps = e.getSchedule();
         assertTrue(ps instanceof WeeklyPaymentSchedule);
 
-        PaymentMethod pm = e.getPayMethod();
+        PaymentMethod pm = e.getMethod();
         Assert.assertEquals("direct deposit into Fortis : be332211",pm.toString());
     }
 

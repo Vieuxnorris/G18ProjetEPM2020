@@ -14,4 +14,9 @@ public class MailMethod implements PaymentMethod {
 	public void pay(CheckPayment pc) {
 		pc.setFields("payement : ", "Mail");
 	}
+
+	@Override
+	public String toString() {
+		return "mail : " + mail;
+	}
 }

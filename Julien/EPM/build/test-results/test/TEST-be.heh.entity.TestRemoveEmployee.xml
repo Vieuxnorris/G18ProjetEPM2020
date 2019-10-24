@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="be.heh.entity.TestRemoveEmployee" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-24T21:53:31" hostname="DESKTOP-TE37K0V" time="0.011">
+  <properties/>
+  <testcase name="deleteEmployee" classname="be.heh.entity.TestRemoveEmployee" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

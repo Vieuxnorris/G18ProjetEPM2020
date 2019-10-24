@@ -21,13 +21,13 @@ public class TestRemoveEmployee {
 
        AddSalariedEmployee t = new AddSalariedEmployee(empID, "titi", "rue truc",1000);
        t.execute();
-       Employee e = Context.employeeGateway.getEmployee(empID);
+       Employee e = PayrollDatabase.instance.getEmployee(empID);
        assertNotNull(e);
 
        DeleteEmployee de = new DeleteEmployee(empID);
        de.execute();
 
-       Employee emp = Context.employeeGateway.getEmployee(empID);
+       Employee emp = PayrollDatabase.instance.getEmployee(empID);
        assertNull(emp);
    }
 }

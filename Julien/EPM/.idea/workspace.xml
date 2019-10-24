@@ -1,20 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f9294ea-74f8-4650-82a8-910ea7826b89" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
+    <list default="true" id="5f9294ea-74f8-4650-82a8-910ea7826b89" name="Default Changelist" comment="Test 1,2,3,4 fonctionnel">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Julien.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/AddEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/AddEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/CommissionedClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/CommissionedClassification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/DeleteEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/DeleteEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/HourlyClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/HourlyClassification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/PaymentClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/PaymentClassification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/SalariedClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/SalariedClassification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddCommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddCommissionEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddEmployeeTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddEmployeeTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddHourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddHourlyEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddSalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddSalariedEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestAddEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestAddEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestTimeCardTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestTimeCardTransaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/AddEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/AddEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/CommissionedClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/CommissionedClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/DeleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/DeleteEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/HourlyClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/HourlyClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/MonthlyPaymentySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/MonthlyPaymentySchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/SalariedClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/SalariedClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/TwoWeeksPaymentSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/TwoWeeksPaymentSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/WeeklyPaymentSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/WeeklyPaymentSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddCommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddCommissionEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddEmployeeTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddEmployeeTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddHourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddHourlyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddSalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddSalariedEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestAddEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestAddEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestRemoveEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestRemoveEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestTimeCardTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestTimeCardTransaction.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -41,159 +92,6 @@
       </state>
     </system>
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HourlyClassification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MonthlyPaymentSchedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TwoWeekPay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#111#112#0" expanded="true" />
-                <element signature="e#138#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SaleReceipt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TimeCard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WeeklyPaymentSchedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-              <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CashMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PaymentSchedule.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -202,86 +100,17 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/TestEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PaymentClassification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SalariedClassification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HourlyClassification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CommissionClassification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PaymentMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DirectDepositMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MailMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CashMethod.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PaymentSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MonthlyPaymentSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WeeklyPaymentSchedule.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TwoWeekPay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SaleReceipt.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestEmployee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TimeCard.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-6" />
-    <option name="width" value="696" />
-    <option name="height" value="735" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="EPM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EPM" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1SfBasL8HeGRN6krmRRieYlp8vz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Payroll-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -307,13 +136,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestEmployee">
-    <configuration name="TestEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TestRemoveEmployee">
+    <configuration name="TestAddEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TestEmployee&quot;" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestAddEmployee&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -328,12 +157,72 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestEmployee.createSalariedEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TestEmployee.createSalariedEmployee&quot;" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestEmployee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRemoveEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestRemoveEmployee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSetup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestSetup&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestTimeCardTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestTimeCardTransaction&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -350,8 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestRemoveEmployee" />
         <item itemvalue="Gradle.TestEmployee" />
-        <item itemvalue="Gradle.TestEmployee.createSalariedEmployee" />
+        <item itemvalue="Gradle.TestAddEmployee" />
+        <item itemvalue="Gradle.TestTimeCardTransaction" />
+        <item itemvalue="Gradle.TestSetup" />
       </list>
     </recent_temporary>
   </component>
@@ -368,276 +260,24 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TestEmployee_createSalariedEmployee - 2019.10.17 at 09h 13m 57s.xml">
-      <configuration name="TestEmployee.createSalariedEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 14m 11s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 14m 45s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 15m 07s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 15m 23s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 51m 54s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 52m 19s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 52m 20s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 54m 01s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestEmployee - 2019.10.17 at 09h 54m 20s.xml">
-      <configuration name="TestEmployee" configurationId="GradleRunConfiguration" />
-    </history-entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.9493192" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.299509" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.24960753" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test 1,2,3,4 fonctionnel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test 1,2,3,4 fonctionnel" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/MonthlyPaymentySchedule.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SalariedClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommissionClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DirectDepositMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MailMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CashMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PaymentSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MonthlyPaymentSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WeeklyPaymentSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TwoWeekPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SaleReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#122#123#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#218#219#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HourlyClassification.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TimeCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -2,7 +2,7 @@ package be.heh.usecase;
 
 import be.heh.entity.*;
 
-public class AddSalariedEmployee extends AddEmployee {
+public class AddSalariedEmployee extends AddEmployeeTransaction {
     private double mlty_slry;
 
     public AddSalariedEmployee(int empId, String name, String address, double mlty_slry){
@@ -12,13 +12,13 @@ public class AddSalariedEmployee extends AddEmployee {
 
 
     @Override
-    protected PaymentSchedule makePaymentSchedule()
+    protected PaymentSchedule getSchedule()
     {
         return new MonthlyPaymentySchedule();
     }
 
     @Override
-    protected PaymentClassification makePaymentClassification()
+    protected PaymentClassification getClassification()
     {
         return new SalariedClassification(mlty_slry);
     }

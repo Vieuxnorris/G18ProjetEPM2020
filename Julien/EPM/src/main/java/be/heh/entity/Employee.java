@@ -23,6 +23,11 @@ public class Employee {
         this.Address = address;
     }
 
+    public double getSalary()
+    {
+        return paymentClassification.getSalary();
+    }
+
     public PaymentSchedule getSchedule()
     {
         return payDay;

@@ -8,21 +8,21 @@ public abstract class AddEmployeeTransaction implements Command {
     private String name;
     private String address;
 
-    protected abstract PaymentSchedule makePaymentSchedule();
-    protected abstract PaymentClassification makePaymentClassification();
-    protected abstract PaymentMethod makePaymentMethod();
+    AddEmployeeTransaction(int empid, String name, String address) {
+        this.empId = empid;
+        this.address = address;
+        this.name = name;
+    }
+
+    abstract PaymentClassification getClassification();
+    abstract PaymentSchedule getSchedule();
 
     @Override
     public void execute() {
-        PaymentClassification pc = makePaymentClassification();
-        PaymentSchedule ps = makePaymentSchedule();
-        PaymentMethod pm = makePaymentMethod();
-
         Employee e = new Employee(empId, name, address);
-        e.setClassification(pc);
-        e.setSchedule(ps);
-        e.setMethod(pm);
-
-        Context.employeeGateway.save(empId, e);
+        e.setClassification(getClassification());
+        e.setSchedule(getSchedule());
+        e.setMethod(new DirectDepositMethod("Fortis", "be332211"));
+        PayrollDatabase.instance.addEmployee(empId, e);
     }
 }

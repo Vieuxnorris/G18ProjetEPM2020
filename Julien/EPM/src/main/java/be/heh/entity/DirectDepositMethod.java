@@ -23,4 +23,9 @@ public class DirectDepositMethod implements PaymentMethod {
     {
         pc.setFields("Payement :", "Direct");
     }
+
+    @Override
+    public String toString() {
+        return "direct deposit into " + bank + " : " + BICaccount;
+    }
 }

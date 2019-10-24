@@ -5,6 +5,8 @@ import java.util.Calendar;
 public abstract class PaymentClassification {
     public abstract double calculationSalary(CheckPayment pc);
 
+    public abstract double getSalary();
+
     public static boolean PayPeriod(Calendar date, CheckPayment checkPayment)
     {
         Calendar payPeriodStart = checkPayment.getPayPeriodStartDate();

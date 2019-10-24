@@ -8,4 +8,9 @@ public class CashMethod implements PaymentMethod {
     public void pay(CheckPayment pc) {
         pc.setFields("Payement", "Cash");
     }
+
+    @Override
+    public String toString() {
+        return "Payement en cash";
+    }
 }

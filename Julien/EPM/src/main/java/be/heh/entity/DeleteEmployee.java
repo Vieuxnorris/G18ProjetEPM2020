@@ -12,6 +12,6 @@ public class DeleteEmployee implements Command
 
     @Override
     public void execute() {
-        Context.employeeGateway.deleteEmployee(empID);
+        PayrollDatabase.instance.deleteEmployee(empID);
     }
 }

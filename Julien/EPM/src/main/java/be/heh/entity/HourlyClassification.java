@@ -8,7 +8,6 @@ import java.util.HashMap;
 
 public class HourlyClassification extends PaymentClassification {
 	private double hoursSalary;
-	private double salary;
 	private HashMap<Calendar, TimeCard> listTimeCard;
 
 
@@ -17,9 +16,8 @@ public class HourlyClassification extends PaymentClassification {
 		listTimeCard = new HashMap<>();
 	}
 
-	public double getSalary()
-	{
-		return salary;
+	public double getSalary() {
+		return 380;
 	}
 
     public double calculationSalary(CheckPayment pc){
@@ -39,7 +37,7 @@ public class HourlyClassification extends PaymentClassification {
 		double hours = timeCard.getHours();
 		double overtime = Math.max(0.0, hours-8.0);
 		double straightTime = hours - overtime;
-		return straightTime * salary + overtime * salary * 1.5;
+		return straightTime * hoursSalary + overtime * hoursSalary * 1.5;
 	}
 
 	public void addTimeCard(TimeCard timeCard) {

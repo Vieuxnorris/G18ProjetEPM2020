@@ -4,33 +4,28 @@ import be.heh.Context;
 import be.heh.entity.Command;
 
 public abstract class AddEmployee implements Command {
-    private int empID;
-    private String name;
-    private String address;
-    protected Employee employee;
 
-    public AddEmployee(int empID, String name, String address){
-        this.empID = empID;
-        this.name = name;
-        this.address = address;
+    private int itsEmpid;
+    private String itsAddress;
+    private String itsName;
+
+    AddEmployee(int empid, String name, String address) {
+        this.itsEmpid = empid;
+        this.itsAddress = address;
+        this.itsName = name;
     }
 
-    protected abstract PaymentSchedule makePaymentSchedule();
-    protected abstract PaymentClassification makePaymentClassification();
-   // protected abstract PaymentMethod makePaymentMethod();
+    abstract PaymentClassification getClassification();
 
+    abstract PaymentSchedule getSchedule();
     @Override
     public void execute() {
-        PaymentClassification pc = makePaymentClassification();
-        PaymentSchedule ps = makePaymentSchedule();
-        PaymentMethod pm = new DirectDepositMethod("Fortis", "be332211");
+        Employee e = new Employee(itsEmpid, itsName, itsAddress);
+        e.setClassification(getClassification());
+        e.setSchedule(getSchedule());
+        e.setMethod(new CashMethod());
+        PayrollDatabase.instance.addEmployee(itsEmpid, e);
 
-        Employee e = new Employee(empID, name, address);
-        e.setClassification(pc);
-        e.setSchedule(ps);
-        e.setMethod(pm);
-
-        Context.employeeGateway.save(empID, e);
     }
 
 }

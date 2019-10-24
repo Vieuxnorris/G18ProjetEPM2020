@@ -12,6 +12,11 @@ public class CommissionedClassification extends PaymentClassification {
 	/*private HashMap<Calendar, SaleReceipt> listSaleReceipt;
 	HashMap<Calendar, SaleReceipt> listSaleReceipt = new HashMap<Calendar, SaleReceipt>();*/
 
+	@Override
+	public double getSalary() {
+		return 25;
+	}
+
 	public double calculationSalary(CheckPayment pc){
 		return salary;
 	}
