@@ -1,5 +1,4 @@
-public class WeeklyPaymentSchedule implements PaymentSchedule {
-
+public class TwoWeekPay implements PaymentSchedule {
     @Override
     public PaymentSchedule getPaySchedule() {
         return this;
