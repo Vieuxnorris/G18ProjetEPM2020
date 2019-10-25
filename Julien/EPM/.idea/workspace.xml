@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9294ea-74f8-4650-82a8-910ea7826b89" name="Default Changelist" comment="Test 1,2,3,4 fonctionnel">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Julien.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/AddEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/AddEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/CommissionedClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/CommissionedClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/DeleteEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/DeleteEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/HourlyClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/HourlyClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/PaymentClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/PaymentClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/SalariedClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/entity/SalariedClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddCommissionEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddCommissionEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddEmployeeTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddEmployeeTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddHourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddHourlyEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddSalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/be/heh/usecase/AddSalariedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestAddEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestAddEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestTimeCardTransaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestTimeCardTransaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/AddEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/AddEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/CommissionedClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/CommissionedClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/DeleteEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/DeleteEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/HourlyClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/HourlyClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/MonthlyPaymentySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/MonthlyPaymentySchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/SalariedClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/SalariedClassification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/TwoWeeksPaymentSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/TwoWeeksPaymentSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/WeeklyPaymentSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/WeeklyPaymentSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddCommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddCommissionEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddEmployeeTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddEmployeeTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddHourlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddHourlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddSalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/usecase/AddSalariedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestAddEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestAddEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestRemoveEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestRemoveEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestTimeCardTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestTimeCardTransaction.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,13 +86,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestRemoveEmployee">
+  <component name="RunManager" selected="Gradle.TestChangeDetails">
     <configuration name="TestAddEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestAddEmployee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestChangeDetails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestChangeDetails&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,26 +167,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TestSetup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestSetup&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TestTimeCardTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -239,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestChangeDetails" />
         <item itemvalue="Gradle.TestRemoveEmployee" />
         <item itemvalue="Gradle.TestEmployee" />
         <item itemvalue="Gradle.TestAddEmployee" />
         <item itemvalue="Gradle.TestTimeCardTransaction" />
-        <item itemvalue="Gradle.TestSetup" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +215,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
