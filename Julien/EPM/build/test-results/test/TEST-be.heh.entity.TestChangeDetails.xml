@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="be.heh.entity.TestChangeDetails" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-25T10:38:03" hostname="DESKTOP-TE37K0V" time="0.047">
+<testsuite name="be.heh.entity.TestChangeDetails" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-25T13:36:35" hostname="localhost.localdomain" time="0.007">
   <properties/>
-  <testcase name="testChangeAddressTransaction" classname="be.heh.entity.TestChangeDetails" time="0.047"/>
+  <testcase name="testChangeSalariedTransaction" classname="be.heh.entity.TestChangeDetails" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[TestChangeAddressTransaction
+  <system-err><![CDATA[TestChangeSalariedTransaction
 ]]></system-err>
 </testsuite>
