@@ -30,7 +30,7 @@ public class TestPayday {
         Assert.assertNotNull(pc);
         Assert.assertEquals(pc.getPayPeriodEndDate(), payDay);
         Assert.assertEquals(1000.00, pc.getGrossPay(), 0.001);
-        //Assert.assertTrue("Hold".equals(pc.getField("Disposition")));
+        //Assert.assertTrue("Hold".equals(pc.getField("Disposition"))); // a corriger
         Assert.assertEquals(0.0, pc.getDeduction(), 0.001);
         Assert.assertEquals(1000.00, pc.getNetPay(), 0.001);
     }
