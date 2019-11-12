@@ -11,23 +11,23 @@ import java.util.Set;
 
 public class PaydayTransaction  implements Transaction {
 
-    private Calendar PayDate;
-    private Map<Integer , CheckPayment> PayChecks;
+    private Calendar itsPayDate;
+    private Map<Integer , CheckPayment> itsPayChecks;
 
     public PaydayTransaction (Calendar payDate)
     {
-        this.PayDate = payDate;
-        PayChecks = new HashMap<>();
+        this.itsPayDate = payDate;
+        itsPayChecks = new HashMap<>();
     }
 
     public CheckPayment getPayCheck(int empID)
     {
-        return PayChecks.get(empID);
+        return itsPayChecks.get(empID);
     }
 
     public int getPayCheckCount()
     {
-        return PayChecks.size();
+        return itsPayChecks.size();
     }
 
     @Override
@@ -36,10 +36,10 @@ public class PaydayTransaction  implements Transaction {
         for (int id : empIds)
         {
             Employee e = PayrollDatabase.instance.getEmployee(id);
-            if (e.PayDate(PayDate))
+            if (e.PayDate(itsPayDate))
             {
-                CheckPayment pc = new CheckPayment(e.getPayPeriodStartDay(PayDate), PayDate);
-                PayChecks.put(id,pc);
+                CheckPayment pc = new CheckPayment(e.getPayPeriodStartDay(itsPayDate), itsPayDate);
+                itsPayChecks.put(id,pc);
                 e.payment(pc);
             }
         }
