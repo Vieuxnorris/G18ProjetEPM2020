@@ -12,7 +12,7 @@ public class MailMethod implements PaymentMethod {
 
 	@Override
 	public void pay(CheckPayment pc) {
-		pc.setFields("payement : ", "Mail");
+		pc.setFields("Disposition", "Mail");
 	}
 
 	@Override

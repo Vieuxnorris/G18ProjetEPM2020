@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f9294ea-74f8-4650-82a8-910ea7826b89" name="Default Changelist" comment="Test 1,2,3,4 fonctionnel">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestPayday.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/be/heh/entity/TestPayday.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/be.heh.entity.TestPayday.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/be.heh.entity.TestPayday.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/be.heh.entity.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/be.heh.entity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-be.heh.entity.TestPayday.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-be.heh.entity.TestPayday.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/CashMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/DirectDepositMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/entity/MailMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/gateways/EmployeeGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/gateways/EmployeeGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/doubles/InMemoryEmployeeGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/doubles/InMemoryEmployeeGateway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestPayday.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/entity/TestPayday.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +80,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Payroll-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -87,53 +106,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestPayday">
+  <component name="RunManager" selected="Gradle.TestPayday.testpaySingleSalariedEmployeeOnWrongDate">
     <configuration name="TestChangeDetails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestChangeDetails&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestChangeDetails.testChangeAddressTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestChangeDetails.testChangeAddressTransaction&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TestChangeDetails.testChangeNameTransaction" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestChangeDetails.testChangeNameTransaction&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -188,13 +167,53 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TestPayday.testPaySingleSalariedEmployee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestPayday.testPaySingleSalariedEmployee&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPayday.testpaySingleSalariedEmployeeOnWrongDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;be.heh.entity.TestPayday.testpaySingleSalariedEmployeeOnWrongDate&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestPayday.testpaySingleSalariedEmployeeOnWrongDate" />
+        <item itemvalue="Gradle.TestPayday.testPaySingleSalariedEmployee" />
         <item itemvalue="Gradle.TestPayday" />
         <item itemvalue="Gradle.TestChangeDetails" />
         <item itemvalue="Gradle.TestChangeDetails.testChangeSalariedTransaction" />
-        <item itemvalue="Gradle.TestChangeDetails.testChangeNameTransaction" />
-        <item itemvalue="Gradle.TestChangeDetails.testChangeAddressTransaction" />
       </list>
     </recent_temporary>
   </component>

@@ -21,7 +21,7 @@ public class DirectDepositMethod implements PaymentMethod {
 
     public void pay(CheckPayment pc)
     {
-        pc.setFields("Payement :", "Direct");
+        pc.setFields("Disposition", "Direct");
     }
 
     @Override

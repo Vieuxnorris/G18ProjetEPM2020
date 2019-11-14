@@ -5,6 +5,7 @@ import be.heh.gateways.EmployeeGateway;
 
 import java.util.Map;
 import java.util.HashMap;
+import java.util.Set;
 
 public class InMemoryEmployeeGateway implements EmployeeGateway {
     private Map<Integer, Employee> employees = new HashMap<>();
@@ -22,5 +23,11 @@ public class InMemoryEmployeeGateway implements EmployeeGateway {
     @Override
     public void deleteEmployee(int empId) {
         employees.remove(empId);
+    }
+
+    @Override
+    public Set<Integer> getAllEmployeeIds()
+    {
+        return employees.keySet();
     }
 }
