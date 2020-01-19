@@ -13,13 +13,16 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
 
 import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
-
+//permet d'exécuter des tests JUnit5 avec n'importe quel autre environnement jUnit plus ancien
 @RunWith(SpringRunner.class)
+// RANDOM_PORT permet de faire fonctionné les tes en même temps que Epgmg5Application (comme un une deuxième app idé)
 @SpringBootTest(classes = Epgmg5Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTest {
+    // injection de la dépendances
     @Autowired
     private TestRestTemplate restTemplate;
 
+    // injecte le port HTTP alloué lors de l'exécution, ici avec RANDOM_PORT un port libre non alloué par l'app EPGMG5
     @LocalServerPort
     private int port;
 
