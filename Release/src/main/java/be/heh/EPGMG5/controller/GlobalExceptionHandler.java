@@ -8,6 +8,7 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.Date;
 
+// gère les exceptions spécifiques et globales exceptionelles en lieu commun
 @ControllerAdvice
 public class GlobalExceptionHandler {
     @ExceptionHandler(ResourceNotFoundException.class)
