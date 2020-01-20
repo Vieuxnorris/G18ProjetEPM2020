@@ -15,7 +15,7 @@ import org.springframework.web.client.HttpClientErrorException;
 import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
 //permet d'exécuter des tests JUnit5 avec n'importe quel autre environnement jUnit plus ancien
 @RunWith(SpringRunner.class)
-// RANDOM_PORT permet de faire fonctionné les tes en même temps que Epgmg5Application (comme un une deuxième app idé)
+// RANDOM_PORT permet de faire fonctionné les test en même temps que Epgmg5Application (comme un une deuxième app idé)
 @SpringBootTest(classes = Epgmg5Application.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class EmployeeControllerIntegrationTest {
     // injection de la dépendances
@@ -64,8 +64,8 @@ public class EmployeeControllerIntegrationTest {
     public void testUpdateEmployee() {
         int id = 1;
         EmployeeModel employeeModel = restTemplate.getForObject(getRootUrl() + "employees/employee/" + id, EmployeeModel.class);
-        employeeModel.setName("admin1");
-        employeeModel.setAddress("admin1");
+        employeeModel.setName("admin2");
+        employeeModel.setAddress("admin2");
         restTemplate.put(getRootUrl() + "employees/employee/" + id, employeeModel);
         EmployeeModel updatedEmployee = restTemplate.getForObject(getRootUrl() + "employees/employee/" + id, EmployeeModel.class);
         assertNotNull(updatedEmployee);

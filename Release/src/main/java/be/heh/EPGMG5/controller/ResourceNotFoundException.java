@@ -9,9 +9,9 @@ import javax.annotation.Resource;
     public class ResourceNotFoundException extends Exception {
 
     /* est un identifiant de version universel pour une Serializable classe, la désérialisation utilise ce numéro pour
-        garantir qu'une classe chargée correspond exactement à un objet sérialisé.
-        Si aucune correspondance n'est trouvée, un ResourceNotFoundException est lancé.
-    */
+    garantir qu'une classe chargée correspond exactement à un objet sérialisé.
+    Si aucune correspondance n'est trouvée, un ResourceNotFoundException est lancé.
+            */
     private static final long serialVersionUID = 1L;
 
     public ResourceNotFoundException(String message)
@@ -19,3 +19,4 @@ import javax.annotation.Resource;
         super(message);
     }
 }
+

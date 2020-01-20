@@ -12,7 +12,7 @@
 	<artifactId>EPGMG5</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EPGMG5</name>
-	<description>EPMG7_version_finale</description>
+	<description>EPMG5</description>
 
 	<properties>
 		<java.version>13</java.version>
